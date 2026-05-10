@@ -13,7 +13,7 @@
 
 version: '1.0'
 project:
-  name: tom-sapletta-regen
+  name: regen
   type:
   - python
   description: A Python package for musical string manipulation and analysis
