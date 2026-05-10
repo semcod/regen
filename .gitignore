@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-.idea/misc.xml
+.idea
 .env.example
 .idea/harp.iml
 .idea/inspectionProfiles/Project_Default.xml
