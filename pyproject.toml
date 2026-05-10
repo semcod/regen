@@ -3,13 +3,13 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "regen"
-version = "0.1.5"
+name = "tom-sapletta-regen"
+version = "0.1.6"
 authors = [
     {name = "Your Name", email = "your.email@example.com"},
     {name = "Tom Sapletta",email = "tom@sapletta.com"},
 ]
-description = "A Python package for musical string manipulation and analysis (regen)"
+description = "A Python package for musical string manipulation and analysis"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
