@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "harp"
-version = "0.1.2"
+version = "0.1.3"
 authors = [
     {name = "Your Name", email = "your.email@example.com"},
     {name = "Tom Sapletta",email = "tom@sapletta.com"},
@@ -30,6 +30,7 @@ dependencies = [
     "numpy>=1.19.0",
     "soundfile>=0.10.0",
 ]
+
 
 [project.license]
 text = "Apache-2.0"
