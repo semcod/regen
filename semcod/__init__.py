@@ -12,9 +12,4 @@ __email__ = "your.email@example.com"
 from .core import HarpString, Harp
 from .utils import note_to_frequency, frequency_to_note
 
-__all__ = [
-    "HarpString",
-    "Harp", 
-    "note_to_frequency",
-    "frequency_to_note"
-]
+__all__ = ["HarpString", "Harp", "note_to_frequency", "frequency_to_note"]
