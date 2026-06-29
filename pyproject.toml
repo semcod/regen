@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "semcod"
-version = "0.1.13"
+version = "0.1.14"
 authors = [
     {name = "Tom Sapletta",email = "tom@sapletta.com"},
 ]
@@ -31,9 +31,7 @@ dependencies = [
 ]
 
 
-[project.license]
-text = "Apache-2.0"
-
+license = "Apache-2.0"
 [project.optional-dependencies]
 dev = [
     "pytest>=6.0",
