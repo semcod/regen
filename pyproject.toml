@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "semcodes"
-version = "0.1.12"
+name = "semcod"
+version = "0.1.13"
 authors = [
     {name = "Tom Sapletta",email = "tom@sapletta.com"},
 ]
@@ -50,17 +50,17 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/semcodes/regen"
-Documentation = "https://github.com/semcodes/regen#readme"
-Repository = "https://github.com/semcodes/regen.git"
-"Bug Tracker" = "https://github.com/semcodes/regen/issues"
+Homepage = "https://github.com/semcod/regen"
+Documentation = "https://github.com/semcod/regen#readme"
+Repository = "https://github.com/semcod/regen.git"
+"Bug Tracker" = "https://github.com/semcod/regen/issues"
 
 [project.scripts]
-harp = "harp.cli:main"
+semcod = "semcod.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["harp*", "regen*"]
+include = ["semcod*"]
 
 [tool.black]
 line-length = 88

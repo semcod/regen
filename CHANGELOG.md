@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.13] - 2026-06-29
+
+### Docs
+- Update README.md
+
+### Test
+- Update tests/test_harp.py
+
+### Other
+- Update VERSION
+- Update semcod/__init__.py
+
 ## [0.1.10] - 2026-05-10
 
 ### Docs
