@@ -48,10 +48,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/semcod/regen"
-Documentation = "https://github.com/semcod/regen#readme"
-Repository = "https://github.com/semcod/regen.git"
-"Bug Tracker" = "https://github.com/semcod/regen/issues"
+Homepage = "https://github.com/semcod/semcod"
+Documentation = "https://github.com/semcod/semcod#readme"
+Repository = "https://github.com/semcod/semcod.git"
+"Bug Tracker" = "https://github.com/semcod/semcod/issues"
 
 [project.scripts]
 semcod = "semcod.cli:main"
